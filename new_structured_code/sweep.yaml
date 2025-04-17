@@ -1,0 +1,28 @@
+method: random
+metric:
+  name: val_acc
+  goal: maximize
+
+parameters:
+  project:
+    value: inat-cnn-sweep
+  conv_filters:
+    values: [[32, 64, 128, 128, 128], [64, 128, 256, 256, 256], [64, 64, 64, 64, 64]]
+  kernel_sizes:
+    values: [[3, 3, 3, 3, 3], [5, 3, 3, 3, 3]]
+  activation:
+    values: ["relu", "tanh"]
+  dense_neurons:
+    values: [128, 256, 512]
+  dropout:
+    values: [0.3, 0.5]
+  batchnorm:
+    values: [True, False]
+  augment:
+    values: [True, False]
+  batch_size:
+    values: [32, 64]
+  lr:
+    values: [0.001, 0.0005]
+  max_epochs:
+    value: 15

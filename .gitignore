@@ -1,2 +1,6 @@
 .env
 __pycache__
+inaturalist
+inaturalist_12K.zip
+lightning_logs
+nature_12K.zip

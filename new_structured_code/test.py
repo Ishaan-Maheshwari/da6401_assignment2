@@ -34,7 +34,7 @@ def main():
         "activation": "relu",
         "dense_neurons": 128,
         "num_classes": 10,
-        "use_batchnorm": False,
+        "use_batchnorm": True,
         "dropout": 0.3
     }
     cnn = FlexibleCNN(**model_config)
