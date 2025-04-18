@@ -8,16 +8,20 @@ from models.cnn_model import FlexibleCNN
 from models.lightning_model import LitClassifier
 from data.datamodule import INatDataModule
 
+import ast
+def str_to_list(val):
+    return ast.literal_eval(val)
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Train Flexible CNN on iNaturalist subset")
     
-    parser.add_argument('--filters', nargs=5, type=int, default=[32, 64, 128, 256, 256], help="Filters for each conv layer")
-    parser.add_argument('--kernel_sizes', nargs=5, type=int, default=[3, 3, 3, 3, 3], help="Kernel size per layer")
+    parser.add_argument('--filters', type=str_to_list, help="Filters for each conv layer", required=True)
+    parser.add_argument('--kernel_sizes', type=str_to_list, help="Kernel size per layer", required=True)
     parser.add_argument('--activation', type=str, default="relu", choices=["relu", "tanh", "leakyrelu"])
     parser.add_argument('--dropout', type=float, default=0.25)
     parser.add_argument('--dense_neurons', type=int, default=128)
-    parser.add_argument('--batchnorm', action='store_true')
-    parser.add_argument('--augment', action='store_true')
+    parser.add_argument("--augment", type=bool, default=False)
+    parser.add_argument("--batchnorm", type=bool, default=False)
     parser.add_argument('--lr', type=float, default=1e-3)
     parser.add_argument('--batch_size', type=int, default=32)
     parser.add_argument('--max_epochs', type=int, default=10)

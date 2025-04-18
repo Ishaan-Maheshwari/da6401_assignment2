@@ -1,3 +1,8 @@
+command:
+  - python3
+  - train.py
+  - ${args}
+
 method: random
 metric:
   name: val_acc
@@ -5,8 +10,8 @@ metric:
 
 parameters:
   project:
-    value: inat-cnn-sweep
-  conv_filters:
+    value: assignment_2
+  filters:
     values: [[32, 64, 128, 128, 128], [64, 128, 256, 256, 256], [64, 64, 64, 64, 64]]
   kernel_sizes:
     values: [[3, 3, 3, 3, 3], [5, 3, 3, 3, 3]]

@@ -1,0 +1,34 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+augment:
+  value: false
+batch_size:
+  value: 64
+batchnorm:
+  value: false
+conv_filters:
+  value:
+  - 64
+  - 128
+  - 256
+  - 256
+  - 256
+dense_neurons:
+  value: 128
+dropout:
+  value: 0.3
+kernel_sizes:
+  value:
+  - 5
+  - 3
+  - 3
+  - 3
+  - 3
+lr:
+  value: 0.0005
+max_epochs:
+  value: 15
+project:
+  value: assignment_2

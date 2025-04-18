@@ -1,0 +1,273 @@
+2025-04-17 18:03:35 INFO Running runs: []
+2025-04-17 18:03:36 INFO Agent received command: run
+2025-04-17 18:03:36 INFO Agent starting run with config:
+	activation: relu
+	augment: True
+	batch_size: 32
+	batchnorm: True
+	conv_filters: [64, 128, 256, 256, 256]
+	dense_neurons: 256
+	dropout: 0.5
+	kernel_sizes: [3, 3, 3, 3, 3]
+	lr: 0.0005
+	max_epochs: 15
+	project: assignment_2
+2025-04-17 18:03:36 INFO About to run command: /usr/bin/env python train.py --activation=relu --augment=True --batch_size=32 --batchnorm=True "--conv_filters=[64, 128, 256, 256, 256]" --dense_neurons=256 --dropout=0.5 "--kernel_sizes=[3, 3, 3, 3, 3]" --lr=0.0005 --max_epochs=15 --project=assignment_2
+2025-04-17 18:03:41 INFO Running runs: ['rmpzakv9']
+2025-04-17 18:03:41 INFO Cleaning up finished run: rmpzakv9
+2025-04-17 18:03:42 INFO Closing mailbox, abandoning 0 handles.
+2025-04-17 18:03:42 INFO Agent received command: run
+2025-04-17 18:03:42 INFO Agent starting run with config:
+	activation: tanh
+	augment: True
+	batch_size: 64
+	batchnorm: True
+	conv_filters: [64, 64, 64, 64, 64]
+	dense_neurons: 256
+	dropout: 0.5
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.0005
+	max_epochs: 15
+	project: assignment_2
+2025-04-17 18:03:42 INFO About to run command: /usr/bin/env python train.py --activation=tanh --augment=True --batch_size=64 --batchnorm=True "--conv_filters=[64, 64, 64, 64, 64]" --dense_neurons=256 --dropout=0.5 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.0005 --max_epochs=15 --project=assignment_2
+2025-04-17 18:03:47 INFO Running runs: ['3y1thykl']
+2025-04-17 18:03:47 INFO Cleaning up finished run: 3y1thykl
+2025-04-17 18:03:48 INFO Agent received command: run
+2025-04-17 18:03:48 INFO Agent starting run with config:
+	activation: relu
+	augment: False
+	batch_size: 64
+	batchnorm: False
+	conv_filters: [64, 128, 256, 256, 256]
+	dense_neurons: 256
+	dropout: 0.3
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.001
+	max_epochs: 15
+	project: assignment_2
+2025-04-17 18:03:48 INFO About to run command: /usr/bin/env python train.py --activation=relu --augment=False --batch_size=64 --batchnorm=False "--conv_filters=[64, 128, 256, 256, 256]" --dense_neurons=256 --dropout=0.3 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.001 --max_epochs=15 --project=assignment_2
+2025-04-17 18:03:53 INFO Running runs: ['047hnxpj']
+2025-04-17 18:03:53 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-04-17 18:03:53 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-04-17 18:07:05 INFO Running runs: []
+2025-04-17 18:07:05 INFO Agent received command: run
+2025-04-17 18:07:05 INFO Agent starting run with config:
+	activation: relu
+	augment: False
+	batch_size: 32
+	batchnorm: False
+	conv_filters: [32, 64, 128, 128, 128]
+	dense_neurons: 512
+	dropout: 0.5
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.0005
+	max_epochs: 15
+	project: assignment_2
+2025-04-17 18:07:05 INFO About to run command: /usr/bin/env python train.py --activation=relu --augment=False --batch_size=32 --batchnorm=False "--conv_filters=[32, 64, 128, 128, 128]" --dense_neurons=512 --dropout=0.5 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.0005 --max_epochs=15 --project=assignment_2
+2025-04-17 18:07:10 INFO Running runs: ['2y62dudw']
+2025-04-17 18:07:10 INFO Cleaning up finished run: 2y62dudw
+2025-04-17 18:07:11 INFO Closing mailbox, abandoning 0 handles.
+2025-04-17 18:07:12 INFO Agent received command: run
+2025-04-17 18:07:12 INFO Agent starting run with config:
+	activation: relu
+	augment: False
+	batch_size: 32
+	batchnorm: False
+	conv_filters: [64, 128, 256, 256, 256]
+	dense_neurons: 512
+	dropout: 0.3
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.0005
+	max_epochs: 15
+	project: assignment_2
+2025-04-17 18:07:12 INFO About to run command: /usr/bin/env python train.py --activation=relu --augment=False --batch_size=32 --batchnorm=False "--conv_filters=[64, 128, 256, 256, 256]" --dense_neurons=512 --dropout=0.3 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.0005 --max_epochs=15 --project=assignment_2
+2025-04-17 18:07:17 INFO Running runs: ['koe5827i']
+2025-04-17 18:07:17 INFO Cleaning up finished run: koe5827i
+2025-04-17 18:07:17 INFO Agent received command: run
+2025-04-17 18:07:17 INFO Agent starting run with config:
+	activation: relu
+	augment: True
+	batch_size: 32
+	batchnorm: True
+	conv_filters: [32, 64, 128, 128, 128]
+	dense_neurons: 512
+	dropout: 0.3
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.0005
+	max_epochs: 15
+	project: assignment_2
+2025-04-17 18:07:17 INFO About to run command: /usr/bin/env python train.py --activation=relu --augment=True --batch_size=32 --batchnorm=True "--conv_filters=[32, 64, 128, 128, 128]" --dense_neurons=512 --dropout=0.3 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.0005 --max_epochs=15 --project=assignment_2
+2025-04-17 18:07:22 INFO Running runs: ['ntnzsofz']
+2025-04-17 18:07:22 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-04-17 18:07:22 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-04-17 18:08:38 INFO Running runs: []
+2025-04-17 18:08:39 INFO Agent received command: run
+2025-04-17 18:08:39 INFO Agent starting run with config:
+	activation: tanh
+	augment: True
+	batch_size: 64
+	batchnorm: True
+	conv_filters: [64, 64, 64, 64, 64]
+	dense_neurons: 128
+	dropout: 0.5
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.001
+	max_epochs: 15
+	project: assignment_2
+2025-04-17 18:08:39 INFO About to run command: /usr/bin/env python train.py --activation=tanh --augment=True --batch_size=64 --batchnorm=True "--conv_filters=[64, 64, 64, 64, 64]" --dense_neurons=128 --dropout=0.5 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.001 --max_epochs=15 --project=assignment_2
+2025-04-17 18:08:44 INFO Running runs: ['9xy1x9c4']
+2025-04-17 18:08:44 INFO Cleaning up finished run: 9xy1x9c4
+2025-04-17 18:08:44 INFO Closing mailbox, abandoning 0 handles.
+2025-04-17 18:08:45 INFO Agent received command: run
+2025-04-17 18:08:45 INFO Agent starting run with config:
+	activation: relu
+	augment: True
+	batch_size: 64
+	batchnorm: False
+	conv_filters: [64, 128, 256, 256, 256]
+	dense_neurons: 256
+	dropout: 0.5
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.0005
+	max_epochs: 15
+	project: assignment_2
+2025-04-17 18:08:45 INFO About to run command: /usr/bin/env python train.py --activation=relu --augment=True --batch_size=64 --batchnorm=False "--conv_filters=[64, 128, 256, 256, 256]" --dense_neurons=256 --dropout=0.5 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.0005 --max_epochs=15 --project=assignment_2
+2025-04-17 18:08:50 INFO Running runs: ['jfpraite']
+2025-04-17 18:08:50 INFO Cleaning up finished run: jfpraite
+2025-04-17 18:08:50 INFO Agent received command: run
+2025-04-17 18:08:50 INFO Agent starting run with config:
+	activation: relu
+	augment: False
+	batch_size: 64
+	batchnorm: False
+	conv_filters: [64, 128, 256, 256, 256]
+	dense_neurons: 256
+	dropout: 0.5
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.001
+	max_epochs: 15
+	project: assignment_2
+2025-04-17 18:08:50 INFO About to run command: /usr/bin/env python train.py --activation=relu --augment=False --batch_size=64 --batchnorm=False "--conv_filters=[64, 128, 256, 256, 256]" --dense_neurons=256 --dropout=0.5 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.001 --max_epochs=15 --project=assignment_2
+2025-04-17 18:08:55 INFO Running runs: ['whdofdcq']
+2025-04-17 18:08:55 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-04-17 18:08:55 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-04-17 18:10:48 INFO Closing mailbox, abandoning 0 handles.
+2025-04-17 18:11:09 INFO Running runs: []
+2025-04-17 18:11:10 INFO Agent received command: run
+2025-04-17 18:11:10 INFO Agent starting run with config:
+	activation: tanh
+	augment: False
+	batch_size: 32
+	batchnorm: True
+	conv_filters: [32, 64, 128, 128, 128]
+	dense_neurons: 512
+	dropout: 0.5
+	kernel_sizes: [3, 3, 3, 3, 3]
+	lr: 0.0005
+	max_epochs: 15
+	project: assignment_2
+2025-04-17 18:11:10 INFO About to run command: python3 train.py --activation=tanh --augment=False --batch_size=32 --batchnorm=True "--conv_filters=[32, 64, 128, 128, 128]" --dense_neurons=512 --dropout=0.5 "--kernel_sizes=[3, 3, 3, 3, 3]" --lr=0.0005 --max_epochs=15 --project=assignment_2
+2025-04-17 18:11:15 INFO Running runs: ['2ynvhk5f']
+2025-04-17 18:11:15 INFO Cleaning up finished run: 2ynvhk5f
+2025-04-17 18:11:16 INFO Closing mailbox, abandoning 0 handles.
+2025-04-17 18:11:16 INFO Agent received command: run
+2025-04-17 18:11:16 INFO Agent starting run with config:
+	activation: tanh
+	augment: False
+	batch_size: 64
+	batchnorm: False
+	conv_filters: [64, 128, 256, 256, 256]
+	dense_neurons: 128
+	dropout: 0.3
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.0005
+	max_epochs: 15
+	project: assignment_2
+2025-04-17 18:11:16 INFO About to run command: python3 train.py --activation=tanh --augment=False --batch_size=64 --batchnorm=False "--conv_filters=[64, 128, 256, 256, 256]" --dense_neurons=128 --dropout=0.3 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.0005 --max_epochs=15 --project=assignment_2
+2025-04-17 18:11:21 INFO Running runs: ['haobl3xo']
+2025-04-17 18:11:21 INFO Cleaning up finished run: haobl3xo
+2025-04-17 18:11:22 INFO Agent received command: run
+2025-04-17 18:11:22 INFO Agent starting run with config:
+	activation: tanh
+	augment: True
+	batch_size: 32
+	batchnorm: False
+	conv_filters: [32, 64, 128, 128, 128]
+	dense_neurons: 256
+	dropout: 0.3
+	kernel_sizes: [3, 3, 3, 3, 3]
+	lr: 0.0005
+	max_epochs: 15
+	project: assignment_2
+2025-04-17 18:11:22 INFO About to run command: python3 train.py --activation=tanh --augment=True --batch_size=32 --batchnorm=False "--conv_filters=[32, 64, 128, 128, 128]" --dense_neurons=256 --dropout=0.3 "--kernel_sizes=[3, 3, 3, 3, 3]" --lr=0.0005 --max_epochs=15 --project=assignment_2
+2025-04-17 18:11:27 INFO Running runs: ['des8285h']
+2025-04-17 18:11:27 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-04-17 18:11:27 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-04-18 15:14:42 INFO Closing mailbox, abandoning 0 handles.
+2025-04-18 15:15:43 INFO Running runs: []
+2025-04-18 15:15:43 INFO Agent received command: run
+2025-04-18 15:15:43 INFO Agent starting run with config:
+	activation: tanh
+	augment: True
+	batch_size: 64
+	batchnorm: False
+	conv_filters: [64, 64, 64, 64, 64]
+	dense_neurons: 256
+	dropout: 0.3
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.0005
+	max_epochs: 15
+	project: assignment_2
+2025-04-18 15:15:43 INFO About to run command: python3 train.py --activation=tanh --augment=True --batch_size=64 --batchnorm=False "--conv_filters=[64, 64, 64, 64, 64]" --dense_neurons=256 --dropout=0.3 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.0005 --max_epochs=15 --project=assignment_2
+2025-04-18 15:15:48 INFO Running runs: ['69zk86gh']
+2025-04-18 15:15:54 INFO Cleaning up finished run: 69zk86gh
+2025-04-18 15:15:54 INFO Closing mailbox, abandoning 0 handles.
+2025-04-18 15:15:54 INFO Agent received command: run
+2025-04-18 15:15:54 INFO Agent starting run with config:
+	activation: tanh
+	augment: True
+	batch_size: 32
+	batchnorm: False
+	conv_filters: [64, 128, 256, 256, 256]
+	dense_neurons: 512
+	dropout: 0.5
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.0005
+	max_epochs: 15
+	project: assignment_2
+2025-04-18 15:15:54 INFO About to run command: python3 train.py --activation=tanh --augment=True --batch_size=32 --batchnorm=False "--conv_filters=[64, 128, 256, 256, 256]" --dense_neurons=512 --dropout=0.5 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.0005 --max_epochs=15 --project=assignment_2
+2025-04-18 15:15:59 INFO Running runs: ['qkkgx4hu']
+2025-04-18 15:15:59 INFO Cleaning up finished run: qkkgx4hu
+2025-04-18 15:16:00 INFO Agent received command: run
+2025-04-18 15:16:00 INFO Agent starting run with config:
+	activation: relu
+	augment: False
+	batch_size: 64
+	batchnorm: True
+	conv_filters: [64, 128, 256, 256, 256]
+	dense_neurons: 256
+	dropout: 0.3
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.001
+	max_epochs: 15
+	project: assignment_2
+2025-04-18 15:16:00 INFO About to run command: python3 train.py --activation=relu --augment=False --batch_size=64 --batchnorm=True "--conv_filters=[64, 128, 256, 256, 256]" --dense_neurons=256 --dropout=0.3 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.001 --max_epochs=15 --project=assignment_2
+2025-04-18 15:16:05 INFO Running runs: ['h1zks87i']
+2025-04-18 15:16:05 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2025-04-18 15:16:05 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true
+2025-04-18 15:58:30 INFO Running runs: []
+2025-04-18 15:58:31 INFO Agent received command: run
+2025-04-18 15:58:31 INFO Agent starting run with config:
+	activation: relu
+	augment: False
+	batch_size: 64
+	batchnorm: True
+	conv_filters: [32, 64, 128, 128, 128]
+	dense_neurons: 512
+	dropout: 0.5
+	kernel_sizes: [5, 3, 3, 3, 3]
+	lr: 0.001
+	max_epochs: 15
+	project: assignment_2
+2025-04-18 15:58:31 INFO About to run command: python3 train.py --activation=relu --augment=False --batch_size=64 --batchnorm=True "--conv_filters=[32, 64, 128, 128, 128]" --dense_neurons=512 --dropout=0.5 "--kernel_sizes=[5, 3, 3, 3, 3]" --lr=0.001 --max_epochs=15 --project=assignment_2
+2025-04-18 15:58:36 INFO Running runs: ['640ht5x0']
