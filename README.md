@@ -151,17 +151,7 @@ python test.py --checkpoint_path path/to/checkpoint.ckpt
 python predict.py --image_path sample.jpg --checkpoint_path path/to/checkpoint.ckpt
 ```
 
-## 🧼 Tips & Best Practices
 
-- Use W&B sweeps for tuning.
-- Visualize filters to interpret learning.
-- Run locally for fast iterations, then scale.
-- Subset the dataset for rapid prototyping.
+### Wandb Report Link
 
-## 📜 License
-
-MIT License
-
-## 🙋‍♂️ Questions?
-
-Feel free to reach out!
+https://wandb.ai/ishaan_maheshwari-indian-institute-of-technology-madras/da6401_assignment2/reports/Ishaan-Maheshwari-s-DA6401-Assignment-2--VmlldzoxMjM2ODk1NQ?accessToken=2nl3yayqc9anj2ehtnoey7s3ng9wcxw98dm5m0ml7pie077uhtekk8emljsls7h1 
