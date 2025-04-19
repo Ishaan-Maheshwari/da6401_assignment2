@@ -18,8 +18,6 @@ inaturalist/
 ├── class_2/
 └── ...
 
-
-
 Each class directory contains image files.
 
 ---

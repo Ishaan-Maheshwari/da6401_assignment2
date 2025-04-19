@@ -44,5 +44,3 @@ transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
   - Strategy 2: Unfreeze only the last block (`layer4`) and the final layer first, then unfreeze the entire model and continue training.
 
 - Training and validation loops are written to log **loss and accuracy per epoch**, and use standard PyTorch training patterns with `Adam` optimizer and `CrossEntropyLoss`.
-
-
